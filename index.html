@@ -4,35 +4,72 @@ layout: default
 <div id="main">
   <section>
     {% for post in site.posts limit:1 %}
-      <header>
-        <h1>{{ post.title }}</h1>
-        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-      </header>
-      <section>
-        {{ post.content }}
-        <p class="editor-link"><a href="cloudcannon:collections/{{ post.path }}" class="button"><strong>&#9998;</strong> Edit post</a></p>
-      </section>
+    <header>
+      <h1>{{ post.title }}</h1>
+      <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    </header>
+    <section>
+      {{ post.content }}
+      <p class="editor-link"><a href="cloudcannon:collections/{{ post.path }}" class="button"><strong>&#9998;</strong> Edit post</a></p>
+    </section>
     {% endfor %}
   </section>
 
   <section>
     <div class="row">
       {% for post in site.posts offset:1 %}
-        <article class="{% cycle '6u', '6u$' %} 12u(small)">
-          <header>
-            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-          </header>
-          <section>
-            {{ post.excerpt }}
-          </section>
-          <footer>
-            <ul class="actions">
-              <li><a href="{{ post.url }}" class="button">Read More</a></li>
-              <li class="editor-link"><a href="cloudcannon:collections/{{ post.path }}" class="button"><strong>&#9998;</strong> Edit post</a></li>
-            </ul>
-          </footer>
-        </article>
+      <article class="{% cycle '6u', '6u$' %} 12u(small)">
+        <header>
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        </header>
+        <section>
+          {{ post.excerpt }}
+        </section>
+        <footer>
+          <ul class="actions">
+            <li><a href="{{ post.url }}" class="button">Read More</a></li>
+            <li class="editor-link"><a href="cloudcannon:collections/{{ post.path }}" class="button"><strong>&#9998;</strong> Edit post</a></li>
+          </ul>
+        </footer>
+      </article>
       {% endfor %}
+    </div>
+  </section>
+
+  <section>
+    <h2>Get In Touch</h2>
+    <p> If you want to get involved or participate in a talk, feel free to contuct us! </p>
+    <div class="row">
+      <div class="8u 12u$(small)">
+        <form method="post"action="mailto:cogsystalks@gmail.com">
+          <div class="row uniform 50%">
+            <div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name"></div>
+            <div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email"></div>
+            <div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+          </div>
+        </form>
+        <ul class="actions">
+          <li><input type="submit" value="Send Message"></li>
+        </ul>
+      </div>
+      <div class="4u$ 12u$(small)">
+        <ul class="labeled-icons">
+          <li>
+            <h3 class="icon fa-home"><span class="label">Address</span></h3>
+            Danmarks Tekniske Universitet</br>
+            Richard Petersens Plads</br>
+            Bygning 321, rum 133</br>
+            2800 Kgs. Lyngby
+          </li>
+          <li>
+            <h3 class="icon fas fa-user"><span class="label">Person1</span></h3>
+            <a href="https://www.dtu.dk/english/service/phonebook/person?id=150066&cpid=278391&tab=0">Alison Pouplin</a>
+           </br>
+            <h3 class="icon fas fa-user"><span class="label">Person2</span></h3>
+            <a href="https://www.dtu.dk/service/telefonbog/person?id=115952&cpid=260886&tab=0">Federico Bergamin</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </section>
 </div>
