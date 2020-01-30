@@ -2,26 +2,29 @@
 layout: default
 ---
 <div id="main">
+
   <section id="one">
-    <header class="major">
-  							<h2>Ipsum lorem dolor aliquam ante commodo<br />
-  							magna sed accumsan arcu neque.</h2>
-  						</header>
-  						<p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
-  						<!-- <ul class="actions">
-  							<li><a href="#" class="button">Learn More</a></li>
-  						</ul> -->
+    <header class="major"> <h2> Machine learning seminar series </h2> </header>
+		<p> Cogsys Talks is a seminar series focused on machine learning and applied mathematics at DTU Compute. The talks are
+      given by internal and external speakers, and are gathered by theme.
+        <br />
+        Everyone is welcome to attend. </p>
+		<ul class="actions">
+			<li><a href="{{ site.baseurl }}{% link pages/about.md %}" class="button"> About Us</a></li>
+      <li><a href="{{ site.baseurl }}{% link pages/schedule.md %}" class="button"> Schedule </a></li>
+		</ul>
   </section>
 
-  <section id="two">
+
+  <!-- <section id="two">
     <div class="row">
       {% for post in site.posts %}
-      <article class="{% cycle '6u', '6u$' %} 12u(small)">
+      <article class="{% cycle '6u', '6u$' %} 12u(xsmall)">
         <header>
           <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
         </header>
         <section>
-          {{ post.excerpt }}
+
         </section>
         <footer>
           <ul class="actions">
@@ -32,13 +35,48 @@ layout: default
       </article>
       {% endfor %}
     </div>
+  </section> -->
+
+
+  <section id="two">
+  <h2>Upcoming Events</h2>
+  <p></p>
+      <div class="row">
+        {% for post in site.posts %}
+        {% if post.tags contains 'upcoming' %}
+          <article class="{% cycle '6u', '6u$' %} 12u(xsmall)">
+            <a href="{{ post.url }}" class="image fit thumb"><img src="{{ post.image }}" alt="" /></a>
+            <p> {{ post.title }} - {{post.date_event | date_to_long_string }} </p>
+          </article>
+        {% endif %}
+        {% endfor %}
+      </div>
   </section>
 
   <section id="three">
+  <h2>Past Events</h2>
+  <p></p>
+      <div class="row">
+        {% for post in site.posts %}
+        {% if post.tags contains 'past' %}
+          <article class="{% cycle '6u', '6u$' %} 12u(xsmall)">
+            <a href="{{ post.url }}" class="image fit thumb"><img src="{{ post.image }}" alt="" /></a>
+            <p> {{ post.title }} - {{post.date_event | date_to_long_string }} </p>
+          </article>
+        {% endif %}
+        {% endfor %}
+      </div>
+  </section>
+
+
+
+
+  <section id="four">
     <h2>Get In Touch</h2>
-    <p> If you want to get involved or participate in a talk, feel free to contuct us! </p>
+    <p> We are always looking for amazing speakers, volunteers and sponsors.
+      If you have questions or suggestions, please drop us an email </p>
     <div class="row">
-      <div class="8u 12u$(small)">
+      <div class="8u 12u$(xsmall)">
         <form method="post"action="mailto:cogsystalks@gmail.com">
           <div class="row uniform 50%">
             <div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name"></div>
@@ -54,7 +92,7 @@ layout: default
         <ul class="labeled-icons">
           <li>
             <h3 class="icon fa-home"><span class="label">Address</span></h3>
-            Danmarks Tekniske Universitet</br>
+            Technical University of Denmark</br>
             Richard Petersens Plads</br>
             Bygning 321, rum 133</br>
             2800 Kgs. Lyngby
@@ -70,4 +108,5 @@ layout: default
       </div>
     </div>
   </section>
+
 </div>
