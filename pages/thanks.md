@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thank you for reaching out!
-permalink: /schedule/
+permalink: /thanks/
 ---
 Thank you for your interest in our project. We really appreciate it.
 
