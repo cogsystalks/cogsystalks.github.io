@@ -7,7 +7,7 @@ permalink: /schedule/
 Our upcoming events are hosted at DTU, **building 324, room 020**:
 
   - 14/02/2020, 13:00-15:00:
-  [Quantum machine learning]({{ site.baseurl }}{% link _posts/2020-01-27-quantum.md %}), with A. Pesah and J. Foldager.
+  [Quantum machine learning]({{ site.baseurl }}{% link _posts/2020-01-27-quantum.md %}), with A. Pesah and J. Foldager. ** !! The room has been changed to room 060 building 324 !!**
   - 21/02/2020, 15:00-17:00:
   [Reinforcement Learning]({{ site.baseurl }}{% link _posts/2020-01-27-reinforcement-learning.md %}), with K. Arulkumaran and S. Risi.
   - 20/03/2020, 13:00-15:00:
