@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Causality
-date_event: 2020-05-15T10:20:00Z
+date_event: 2020-10-15T10:20:00Z
 tag: upcoming
 image: "/images/illustration/event4-dominos.jpg"
 permalink: /event-4/
@@ -9,7 +9,9 @@ permalink: /event-4/
 
 <!-- # CogSys Talks presents: Quantum Machine Learning -->
 
-For this event on causality, we are honoured to host Jonas and Sebastian:
+*This event will happen in the near future. Stay tuned !*
+
+<!-- For this event on causality, we are honoured to host Jonas and Sebastian: -->
 
   - [Jonas Peters](http://web.math.ku.dk/~peters/) is a Professor of Statistics at the Department of Mathematical
   Sciences at the University of Copenhagen. His research interests lie primarily in causal inference. He is the author of

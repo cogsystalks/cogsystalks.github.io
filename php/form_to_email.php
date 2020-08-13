@@ -7,7 +7,7 @@ if(isset($_POST['submit'])){
     $errors .= "\n Error: all fields are required";
   }
 
-  $to = "cogsystalks@gmail.com"; // this is your Email address
+  $to = "alpu@dtu.dk"; // this is your Email address
   $from = $_POST['email']; // this is the sender's Email address
   $first_name = $_POST['name'];
   $subject = "Form submission";
