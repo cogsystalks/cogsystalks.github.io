@@ -4,7 +4,7 @@ title: Scheduled events
 permalink: /schedule/
 ---
 
-Our upcoming events are hosted by DTU:
+Our upcoming events will be online:
 
-  - september or october 2020:
-  [Causality]({{ site.baseurl }}{% link _posts/2020-02-04-causality.md %}), with J. Peters and S. Weichwald.
+- 21/10/2020, at 16:00 Central European Time:[Normalizing flows]({{ site.baseurl }}{% link _posts/2020-10-18-normalizing-flows.md %}), with  Dimitris Kalatzis, Polina Kirichenko and Antoine Wehenkel.
+- Around the 18/01/2021: [Optimal Transport]({{ site.baseurl }}{% link _posts/2020-10-18-optimal-transport.md %}) with Aude Genevay and Anton Mallasto.
