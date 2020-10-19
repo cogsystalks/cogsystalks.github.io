@@ -7,6 +7,9 @@ image: "/images/illustration/event5-flows.png"
 permalink: /event-5/
 ---
 
+**The seminar series will be online the 21/10/2020 at 16:00 CET. Click on this [link](https://dtudk.zoom.us/j/63470929002?pwd=SUcrcFlzb05NM2NRcGJSQ2VBVUlkdz09) to join the Zoom meeting.**
+
+
 Normalizing flows model complex distributions based on a series of bijective functions from a simple base distribution. They come in very handy as they provide us with an invertible transformation that enables densities evaluation and samples generation. \\
 However, those functions need to be computed easily to be tractable, which leads to additional assumptions and raises general questions: Which assumptions should we use to compute those functions? Can we model any complex distributions? How useful are normalizing flows?
 
