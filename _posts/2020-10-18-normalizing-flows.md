@@ -2,12 +2,12 @@
 layout: post
 title: Normalizing flows
 date_event: 2020-10-21T10:20:00Z
-tag: upcoming
+tag: past
 image: "/images/illustration/event5-flows.png"
 permalink: /event-5/
 ---
 
-**The seminar series will be online the 21/10/2020 at 16:00 CET. Click on this [link](https://dtudk.zoom.us/j/63470929002?pwd=SUcrcFlzb05NM2NRcGJSQ2VBVUlkdz09) to join the Zoom meeting.**
+**The talk can be watched [here](https://youtu.be/Bts0jLU41a8).**
 
 
 Normalizing flows model complex distributions based on a series of bijective functions from a simple base distribution. They come in very handy as they provide us with an invertible transformation that enables densities evaluation and samples generation. \\
