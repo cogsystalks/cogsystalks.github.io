@@ -6,4 +6,4 @@ permalink: /schedule/
 
 Our upcoming events will be online:
 
-- Around the 18/01/2021: [Optimal Transport]({{ site.baseurl }}{% link _posts/2020-10-18-optimal-transport.md %}) with Aude Genevay and Anton Mallasto.
+- 21/01/2021 (14:00-15:30 CET) : [Optimal Transport]({{ site.baseurl }}{% link _posts/2020-10-18-optimal-transport.md %}) with Aude Genevay, Jean Feydy and Anton Mallasto. Zoom link: [here](https://dtudk.zoom.us/j/61595706831).
