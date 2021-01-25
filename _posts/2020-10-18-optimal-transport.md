@@ -2,11 +2,12 @@
 layout: post
 title: Optimal Transport
 date_event: 2021-01-21T10:20:00Z
-tag: upcoming
+tag: past
 image: "/images/illustration/event6-OT.png"
 permalink: /event-6/
 ---
-Event planned for the 21/01/2021 at 14:00 CET. Zoom link: [here](https://dtudk.zoom.us/j/61595706831).
+
+**The talk can be watched [here](https://youtu.be/tS4KBsMOuKs).**
 
 What is the most efficient way to transport and modify a pile of sand into another one? \\
 This is the question that prompted brilliant scientists like Monge, Kantorovich, Villani and Figali to investigate the theory of transport between two distributions. Today, optimal transport is an invaluable theory for comparing probability distributions, and it yields countless applications in computer vision or machine learning.
