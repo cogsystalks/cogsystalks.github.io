@@ -2,7 +2,7 @@
 layout: post
 title: Trustworthiness and Explainability
 date_event: 2021-04-19T10:20:00Z
-tag: upcoming
+tag: past
 image: "/images/illustration/event7-explainability.jpg"
 permalink: /event-7/
 ---
